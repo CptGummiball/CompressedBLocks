@@ -49,7 +49,7 @@ In this file, you can define which materials should be compressible. Simply add 
 
 - Example: Compressed Stone → 9 Stone
 
-Each level of compression requires 9 of the previous compressed block to craft (up to four levels).
+Each level of compression requires 9 of the previous compressed block to craft.
 ## Permissions
 
 The plugin only has a single permission so far:
