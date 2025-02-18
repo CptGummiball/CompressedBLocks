@@ -5,3 +5,8 @@ api-version: '1.21'
 prefix: CompressedBlocks
 load: STARTUP
 authors: [ cptgummiball ]
+
+permissions:
+    compressedblocks.craft:
+        description: "Allows players to craft compressed blocks."
+        default: true
