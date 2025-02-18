@@ -11,7 +11,7 @@
 
 
 ## Features
-- **Crafting and Decompressing Compressed Blocks**: Players can craft compressed versions of materials up to four levels (Compressed, Double Compressed, Triple Compressed, and Quadruple Compressed).
+- **Crafting and Decompressing Compressed Blocks**: Players can craft compressed versions of materials up to 16 (named) levels (Compressed, Double Compressed, Triple Compressed Quadruple Compressed and more...).
 - **Customizable Compressible Materials**: Server administrators can specify which materials are compressible via a simple configuration file (`config.yml`).
 - **Permissions**: Permission system to control who can craft compressed blocks.
 - **Lore**: Each compressed block has a custom lore displaying how many base blocks it contains. 
