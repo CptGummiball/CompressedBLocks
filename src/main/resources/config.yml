@@ -1,0 +1,6 @@
+# List of materials that can be compressed
+compressed_blocks:
+  - "STONE"
+  - "DIRT"
+  - "COBBLESTONE"
+  # Add more materials here as needed

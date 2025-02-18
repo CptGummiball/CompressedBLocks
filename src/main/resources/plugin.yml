@@ -1,0 +1,7 @@
+name: CompressedBlocks
+version: '0.1'
+main: org.cptgummiball.compressedBlocks.Main
+api-version: '1.21'
+prefix: CompressedBlocks
+load: STARTUP
+authors: [ cptgummiball ]
