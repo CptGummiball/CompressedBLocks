@@ -2,7 +2,7 @@ package org.cptgummiball.compressedBlocks;
 
 import org.bukkit.NamespacedKey;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.cptgummiball.compressedBlocks.listeners.LoadListener;
+import org.cptgummiball.compressedBlocks.listeners.BlockPlaceListener;
 import org.cptgummiball.compressedBlocks.recipes.RecipeManager;
 
 public class Main extends JavaPlugin {
@@ -16,12 +16,10 @@ public class Main extends JavaPlugin {
         instance = this;
         saveDefaultConfig();
 
-        // Initialize recipe manager
         recipeManager = new RecipeManager(this);
         recipeManager.registerRecipesFromConfig();
 
-        // Register listeners
-        new LoadListener(this);
+        getServer().getPluginManager().registerEvents(new BlockPlaceListener(), this);
 
         getLogger().info("CompressedBlocks is running!");
     }
